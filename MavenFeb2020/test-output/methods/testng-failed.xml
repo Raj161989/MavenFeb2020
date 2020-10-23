@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [methods]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="parallel(failed)">
+    <classes>
+      <class name="VctcChinchwad.MavenFeb2020.ParallelTesting">
+        <methods>
+          <include name="executSessionOne"/>
+          <include name="executSessionThree"/>
+          <include name="executeSessionTwo"/>
+        </methods>
+      </class> <!-- VctcChinchwad.MavenFeb2020.ParallelTesting -->
+    </classes>
+  </test> <!-- parallel(failed) -->
+</suite> <!-- Failed suite [methods] -->
